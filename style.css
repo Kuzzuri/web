@@ -90,8 +90,43 @@ hr{
     background-color: white;
 }
 
-
-
+.sectorTwo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#sectorTwoP{
+    position: relative;
+    bottom: 8vw;
+}
+.itemBox{
+    display: flex;
+    flex-direction: row;
+    gap: 4vw;
+    margin-left: 4vw;
+}
+#imgFront1{
+    height: 27vw;
+}
+#imgFront2{
+    height: 27vw;
+}
+#imgFront3{
+    height: 27vw;
+}
+.item1{
+    height: 25vw;
+    width: 25vw;
+}
+.item2{
+    height: 25vw;
+    width: 25vw;
+}
+.item3{
+    height: 25vw;
+    width: 25vw;
+}
 .sectorThree{
     display: flex;
     align-items: center;
@@ -123,11 +158,13 @@ input{
     font-size: 4vw;
     text-align: center;
     font-family: roboto;
+    border-radius: 7px;
 }
 .mailbuton{
     font-family: roboto;
     font-size: 3.5vw;
     border-radius: 9px;
+    color: black;
 }
 .links{
     font-size: 10px;
@@ -175,5 +212,16 @@ input{
         padding: 6px 63px;
         font-size: 1rem;
     }
-
+    .form{
+        height: 40%;
+    }
+    .links{
+        top: 14rem;
+    }
+    .itemBox{
+        gap: 0;
+    }
+    #sectorTwoP{
+        font-size: 2vw;
+    }
 }
