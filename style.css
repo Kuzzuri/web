@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+html{
+    background-color: rgb(8, 16, 18);
+}
 html, body{
     height: 100%;
     overflow-X: hidden;
@@ -35,12 +38,23 @@ html, body{
     top: 0.313rem;
     position: absolute;
     font-size: 2.5rem;
+    transition: 170ms;
+}
+#logo:hover{
+    font-size: 2.8rem;
+    transition: 0.1s ease;
 }
 #bag{
     top: 0.713rem;
     position: absolute;
     right: 4.125rem;
     font-size: 1.5rem;
+    cursor: pointer;
+    transition: 170ms;
+}
+#bag:hover{
+    font-size: 1.7rem;
+    transition: 0.1s ease;
 }
 #bar{
     top: 0.550rem;
@@ -48,16 +62,52 @@ html, body{
     right: 1.25rem;
     margin-top: 0.313rem;
     font-size: 1.5rem;
+    cursor: pointer;
+    transition: 170ms;
+}
+#bar:hover{
+    font-size: 1.7rem;
+    transition: 0.1s ease;
 }
 #account{
     top: 0.713rem;
     position: absolute;
     left: 0.938rem;
+    transition: 170ms;
+}
+#account::after{
+    content: "";
+    position: absolute;
+    background-color: rgb(234, 234, 244);
+    width: 0%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    transition: 200ms;
+}
+#account:hover::after{
+    width: 100%;
+    transition: 170ms;
+}
+#kolye::after{
+    content: "";
+    position: absolute;
+    background-color: rgb(234, 234, 244);
+    width: 0%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    transition: 200ms;
+}
+#kolye:hover::after{
+    width: 100%;
+    transition: 170ms;
 }
 #kolye{
     top: 0.713rem;
     position: absolute;
     left: 6.13rem;
+    transition: 170ms;
 }
 hr{
     width: 100%;
@@ -92,6 +142,14 @@ hr{
     margin-top: 1rem;
     color: black;
     background-color: white;
+    transition: all 150ms;
+    cursor: pointer;
+}
+.button:hover{
+    transition: all 150ms;
+    transform: scale(106%);
+    background-color: rgb(205, 201, 201);
+    color: white;
 }
 
 .sectorTwo{
@@ -111,12 +169,30 @@ hr{
 }
 #imgFront1{
     height: 33vw;
+    transition: 170ms;
+}
+#imgFront1:hover{
+    transform: translate(-4px, -4px);
+    transition: 170ms;
+    box-shadow: 4px 4px 9px black;
 }
 #imgFront2{
     height: 33vw;
+    transition: 170ms;
+}
+#imgFront2:hover{
+    transform: translate(-4px, -4px);
+    transition: 170ms;
+    box-shadow: 4px 4px 9px black;
 }
 #imgFront3{
     height: 33vw;
+    transition: 170ms;
+}
+#imgFront3:hover{
+    transform: translate(-4px, -4px);
+    transition: 170ms;
+    box-shadow: 4px 4px 9px black;
 }
 .sectorThree{
     display: flex;
@@ -158,6 +234,14 @@ input{
     color: black;
     padding-left: 1rem;
     padding-right: 1rem;
+    transition: 170ms;
+    cursor: pointer;
+}
+.mailbuton:hover{
+    box-shadow: 2px 2px 6px black;
+    transform: translate(-4px, -4px);
+    transform: scale(101%);
+    transition: 170ms;
 }
 .links{
     font-size: 10px;
