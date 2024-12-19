@@ -18,7 +18,7 @@ html, body{
     height: 100vh;
 }
 .sectorThree{
-    background-color: rgb(255, 5, 101);
+    background-color: rgb(4, 53, 126);
     height: 100vh;
 }
 .header{
@@ -65,7 +65,7 @@ hr{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 80vh;
+    height: 87vh;
     font-family: roboto;
     color: white;
     gap: 1rem;
@@ -73,18 +73,71 @@ hr{
 .title{
     letter-spacing: 2rem;
     font-size: 3.5rem;
+    margin-left: 15px;
 }
 .subTitle{
     font-size: 1rem;
     letter-spacing: 0.5rem;
 }
 .button{
+    font-family: roboto;
     border-radius: 70px;
-    padding: 13px 70px;
-    font-size: 1rem;
+    padding: 8px 67px;
+    font-size: 1.4rem;
     border: none;
     margin-top: 1rem;
+    color: black;
+    background-color: white;
 }
+
+
+
+.sectorThree{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.form{
+    width: 93%;
+    height: 87%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.formTitle{
+    font-family: roboto;
+    font-size: 3.5vw;
+    text-align: center;
+    margin-left: 1rem;
+    margin-right: 2rem;
+    padding: 0;
+    margin-bottom: 0;
+}
+.mailEnter{
+    font-size: 20vw;
+}
+input{
+    font-size: 4vw;
+    text-align: center;
+    font-family: roboto;
+}
+.mailbuton{
+    font-family: roboto;
+    font-size: 3.5vw;
+    border-radius: 9px;
+}
+.links{
+    font-size: 10px;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 3rem;
+    gap: 5rem;
+}
+
 
 
 @media (max-width: 500px){
@@ -119,8 +172,8 @@ hr{
         font-size: 0.7rem;
     }
     .button{
-        padding: 10px 65px;
-        font-size: 0.7rem;
+        padding: 6px 63px;
+        font-size: 1rem;
     }
 
 }
