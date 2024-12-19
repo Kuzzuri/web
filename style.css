@@ -147,20 +147,20 @@ hr{
     padding: 8px 67px;
     font-size: 1.4rem;
     border: none;
-    margin-top: 1rem;
     color: black;
     background-color: white;
-    transition-property: opacity, transform;
-    transition-duration: 1s, 500ms;
-    transition-timing-function: ease-in, ease;
+    transition-property: opacity, transform, font-size, margin-top;
+    transition-duration: 1s, 500ms, 150ms, 150ms;
+    transition-timing-function: ease-in, ease, ease-in, ease-in;
     cursor: pointer;
     opacity: 0;
     transform: translateY(5rem);
+    margin-top: 0.5rem;
 }
 .button:hover{
-    transition-property: transform;
-    transition-duration: 500ms;
-    transform: scale(106%);
+    margin-top: 0.25rem;
+    font-size: 1.6rem;
+    transition: 150ms ease-in;
     background-color: rgb(205, 201, 201);
     color: white;
 }
