@@ -20,6 +20,30 @@ html, body{
     background-color: rgb(255, 5, 101);
     height: 100vh;
 }
+.header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#bag{
+    position: absolute;
+    right: 66px;
+}
+#bar{
+    position: absolute;
+    right: 20px;
+    margin-top: 5px;
+
+}
+#account{
+    position: absolute;
+    left: 15px;
+}
+#kolye{
+    position: absolute;
+    left: 85px;
+}
 
 @media (max-width: 500px){
     .sectorOne{
