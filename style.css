@@ -98,34 +98,21 @@ hr{
 }
 #sectorTwoP{
     position: relative;
-    bottom: 8vw;
+    bottom: 3vw;
 }
 .itemBox{
     display: flex;
     flex-direction: row;
-    gap: 4vw;
-    margin-left: 4vw;
+    gap: 7vw;
 }
 #imgFront1{
-    height: 27vw;
+    height: 33vw;
 }
 #imgFront2{
-    height: 27vw;
+    height: 33vw;
 }
 #imgFront3{
-    height: 27vw;
-}
-.item1{
-    height: 25vw;
-    width: 25vw;
-}
-.item2{
-    height: 25vw;
-    width: 25vw;
-}
-.item3{
-    height: 25vw;
-    width: 25vw;
+    height: 33vw;
 }
 .sectorThree{
     display: flex;
@@ -165,6 +152,8 @@ input{
     font-size: 3.5vw;
     border-radius: 9px;
     color: black;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 .links{
     font-size: 10px;
@@ -196,7 +185,7 @@ input{
         font-size: 1rem;
     }
     #bar{
-        top: 0.513rem;
+        top: 0.413rem;
         font-size: 1rem;
     }
     #logo{
@@ -219,7 +208,7 @@ input{
         top: 14rem;
     }
     .itemBox{
-        gap: 0;
+        gap: 5vw;
     }
     #sectorTwoP{
         font-size: 2vw;
