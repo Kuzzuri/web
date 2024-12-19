@@ -1,18 +1,24 @@
 *{
     margin: 0;
     padding: 0;
-    overflow: hidden;
+    overflow-X: hidden;
 }
 html, body{
     height: 100%;
 }
 body{
-    display: flex;
-    flex-direction: column;
 }
 .sectorOne{
     background-image: url("images/background.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    height: 100vh;
+}
+.sectorTwo{
+    background-color: antiquewhite;
+    height: 100vh;
+}
+.sectorThree{
+    background-color: rgb(255, 5, 101);
     height: 100vh;
 }
