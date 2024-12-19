@@ -125,13 +125,21 @@ hr{
     gap: 1rem;
 }
 .title{
+    transform: translateY(5rem);
     letter-spacing: 2rem;
     font-size: 3.5rem;
     margin-left: 15px;
+    opacity: 0;
+    transition-property: opacity, transform;
+    transition-duration: 1s, 500ms;
 }
 .subTitle{
+    transform: translateY(5rem);
     font-size: 1rem;
     letter-spacing: 0.5rem;
+    opacity: 0;
+    transition-property: opacity, transform;
+    transition-duration: 1s, 500ms;
 }
 .button{
     font-family: roboto;
@@ -142,16 +150,20 @@ hr{
     margin-top: 1rem;
     color: black;
     background-color: white;
-    transition: all 150ms;
+    transition-property: opacity, transform;
+    transition-duration: 1s, 500ms;
+    transition-timing-function: ease-in, ease;
     cursor: pointer;
+    opacity: 0;
+    transform: translateY(5rem);
 }
 .button:hover{
-    transition: all 150ms;
+    transition-property: transform;
+    transition-duration: 500ms;
     transform: scale(106%);
     background-color: rgb(205, 201, 201);
     color: white;
 }
-
 .sectorTwo{
     display: flex;
     align-items: center;
