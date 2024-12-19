@@ -29,18 +29,20 @@ html, body{
 #logo{
     top: 0.313rem;
     position: absolute;
+    font-size: 2.5rem;
 }
 #bag{
     top: 0.313rem;
     position: absolute;
     right: 4.125rem;
+    font-size: 1.5rem;
 }
 #bar{
     top: 0.200rem;
     position: absolute;
     right: 1.25rem;
     margin-top: 0.313rem;
-
+    font-size: 1.5rem;
 }
 #account{
     top: 0.313rem;
@@ -67,4 +69,11 @@ html, body{
         font-size: 0.7rem;
         left: 3.313rem;
     }
+    #bag{
+        font-size: 1rem;
+    }
+    #bar{
+        font-size: 1rem;
+    }
+
 }
