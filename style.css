@@ -36,7 +36,7 @@ html, body{
     right: 4.125rem;
 }
 #bar{
-    top: 0.250rem;
+    top: 0.200rem;
     position: absolute;
     right: 1.25rem;
     margin-top: 0.313rem;
@@ -56,5 +56,15 @@ html, body{
 @media (max-width: 500px){
     .sectorOne{
         background-image: url("images/31.jpg");
+    }
+    #account{
+        top: 0.713rem;
+        font-size: 0.7rem;
+        left: 0.338rem;
+    }
+    #kolye{
+        top: 0.713rem;
+        font-size: 0.7rem;
+        left: 3.313rem;
     }
 }
