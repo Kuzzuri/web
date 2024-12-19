@@ -60,6 +60,32 @@ hr{
     position: absolute;
     top: 4rem;
 }
+.midSection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 80vh;
+    font-family: roboto;
+    color: white;
+    gap: 1rem;
+}
+.title{
+    letter-spacing: 2rem;
+    font-size: 3.5rem;
+}
+.subTitle{
+    font-size: 1rem;
+    letter-spacing: 0.5rem;
+}
+.button{
+    border-radius: 70px;
+    padding: 13px 70px;
+    font-size: 1rem;
+    border: none;
+    margin-top: 1rem;
+}
+
 
 @media (max-width: 500px){
     .sectorOne{
@@ -85,6 +111,16 @@ hr{
     }
     #logo{
         font-size: 1.5rem;
+    }
+    .title{
+        font-size: 1.5rem;
+    }
+    .subTitle{
+        font-size: 0.7rem;
+    }
+    .button{
+        padding: 10px 65px;
+        font-size: 0.7rem;
     }
 
 }
