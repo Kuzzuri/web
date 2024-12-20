@@ -114,4 +114,32 @@ a{
     text-decoration: none;
     color: white;
 }
+.signUp{
+    margin-right: 10vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.signIn{
+    margin-left: 10vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
+
+
+
+
+@media (max-width: 750px){
+    .container{
+        width: 90%;
+    }
+}
+@media (max-width: 420px){
+    .container{
+        width: 100%;
+    }
+}
