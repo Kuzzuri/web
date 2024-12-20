@@ -9,24 +9,20 @@ html, body{
     height: 100%;
     overflow-X: hidden;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    scroll-snap-type: y mandatory;
 }
 .sectorOne{
     background-image: url("images/background.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
-    scroll-snap-align: start;
 }
 .sectorTwo{
     background-color: antiquewhite;
     height: 100vh;
-    scroll-snap-align: start;
 }
 .sectorThree{
     background-color: rgb(4, 53, 126);
     height: 100vh;
-    scroll-snap-align: start;
 }
 .header{
     width: 100%;
@@ -149,20 +145,36 @@ hr{
     border: none;
     color: black;
     background-color: white;
-    transition-property: opacity, transform, font-size, margin-top;
-    transition-duration: 1s, 500ms, 150ms, 150ms;
-    transition-timing-function: ease-in, ease, ease, ease;
+    transition-property: opacity, transform;
+    transition-duration: 1s, 500ms;
+    transition-timing-function: ease-in, ease;
     cursor: pointer;
     opacity: 0;
     transform: translateY(5rem);
-    margin-top: 0.5rem;
+    margin-top: 0.4rem;
 }
 .button:hover{
-    margin-top: 0.25rem;
-    font-size: 1.6rem;
-    transition: 150ms ease;
-    background-color: rgb(205, 201, 201);
-    color: white;
+    background-color: rgb(213, 213, 213);
+    transition: 100ms;
+}
+#buttonText{
+    transition: 200ms
+}
+.button:hover #buttonText{
+    transform: translateX(-9px);
+    transition: 200ms ease-out;
+}
+.button:hover #arrow{
+    transform: translateX(10px);
+    opacity: 1;
+    transition: 200ms ease-in;
+}
+#arrow{
+    position: absolute;
+    bottom: 0.6rem;
+    right: 4rem;
+    opacity: 0;
+    transition: 200ms
 }
 .sectorTwo{
     display: flex;
@@ -296,6 +308,7 @@ input{
     }
     .title{
         font-size: 1.5rem;
+        padding-left: 20px;
     }
     .subTitle{
         font-size: 0.7rem;
