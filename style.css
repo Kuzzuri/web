@@ -174,7 +174,7 @@ hr{
     bottom: 0.6rem;
     right: 4rem;
     opacity: 0;
-    transition: 200ms
+    transition: 150ms
 }
 .sectorTwo{
     display: flex;
