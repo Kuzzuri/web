@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    background-image: linear-gradient(40deg, white, rgb(168, 135, 168));
+}
+html, body{
+    height: 100%;
+    overflow-X: hidden;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#logo{
+    top: 0.313rem;
+    position: absolute;
+    font-size: 2.5rem;
+    transition: 170ms;
+}
+#logo:hover{
+    font-size: 2.8rem;
+    transition: 0.1s ease;
+}
+#bag{
+    top: 0.713rem;
+    position: absolute;
+    right: 4.125rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: 170ms;
+}
+#bag:hover{
+    font-size: 1.7rem;
+    transition: 0.1s ease;
+}
+#bar{
+    top: 0.550rem;
+    position: absolute;
+    right: 1.25rem;
+    margin-top: 0.313rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: 170ms;
+}
+#bar:hover{
+    font-size: 1.7rem;
+    transition: 0.1s ease;
+}
+#account{
+    top: 0.713rem;
+    position: absolute;
+    left: 0.938rem;
+    transition: 170ms;
+}
+#account::after{
+    content: "";
+    position: absolute;
+    background-color: rgb(234, 234, 244);
+    width: 0%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    transition: 200ms;
+}
+#account:hover::after{
+    width: 100%;
+    transition: 170ms;
+}
+#kolye::after{
+    content: "";
+    position: absolute;
+    background-color: rgb(234, 234, 244);
+    width: 0%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    transition: 200ms;
+}
+#kolye:hover::after{
+    width: 100%;
+    transition: 170ms;
+}
+#kolye{
+    top: 0.713rem;
+    position: absolute;
+    left: 6.13rem;
+    transition: 170ms;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.container{
+    width: 60%;
+    height: 60vh;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 4px 4px 19px black;
+}
+.container:hover{
+    box-shadow: 4px 4px 24px black;
+}
+

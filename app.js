@@ -2,6 +2,7 @@ const body = document.getElementById("body");
 const button = document.getElementById("button")
 let title = document.getElementById("title");
 let subTitle = document.getElementById("subTitle");
+let account = document.getElementById("account"),
 const themeSetter = () => {
     if(!body.classList.contains("active")){
         button.style.opacity = 1;
@@ -54,3 +55,8 @@ setInterval(() =>{
 setInterval(() =>{
     themeSetterThree()
 }, 600)
+
+
+
+//buttons
+account.onclick = () => 
