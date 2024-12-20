@@ -30,7 +30,7 @@
                 <input type="text" class="sifre" placeholder="Şifre">
                 <p class="forget">Şifreni mi unuttun?</p>
             </div>
-            <button class="btn">Hesap Oluştur</button>
+            <button class="btn" id="btn1">Hesap Oluştur</button>
         </div>
         <div class="signIn">
             <h1 class="title">Giriş Yap</h1>
@@ -43,9 +43,15 @@
                 <input type="text" class="sifre" placeholder="Şifre">
                 <p class="forget">Şifreni mi unuttun?</p>
             </div>
-            <button class="btn">Giriş</button>
+            <button class="btn" id="btn2">Giriş</button>
         </div>
-        <div class="purple"></div>
     </div>
+    <div class="container hidden">
+        <div class="purple giris" id="purple">
+            <h2 class="purpleText" id="innerText">Hesabın yok ise:</h2>
+            <button class="purpleBtn" id="purpleBtn">Hesap Oluştur</button>
+        </div>
+    </div>
+    <script src="appTwo.js"></script>
 </body>
 </html>

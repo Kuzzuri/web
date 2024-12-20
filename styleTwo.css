@@ -162,6 +162,72 @@ button:hover{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 2.5vw;
 }
+.purple{
+    background-color: rgb(39, 103, 232);
+    height: 100%;
+    width: 50%;
+    transform: translateX(-13vw);
+    border-radius: 20px 0 0 20px;
+    transition: 200ms ease-out;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding-right: 5vw;
+    z-index: 3;
+    pointer-events: all;
+}
+.purple button{
+    background-color: rgb(209, 4, 209);
+}
+.purpleActive button{
+    background-color: rgb(39, 103, 232);
+}
+.purpleActive{
+    background-image: linear-gradient(rgb(90, 72, 172), rgb(169, 22, 169));
+    height: 100%;
+    width: 50%;
+    transform: translateX(15vw);
+    border-radius: 0 20px 20px 0;
+    transition: 200ms ease-out;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    pointer-events: all;
+}
+.hidden{
+    position: absolute;
+    background-color: transparent;
+    box-shadow: 0 0 0 transparent;
+    pointer-events: none;
+}
+.container h2{
+    font-size: 3vw;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#btn1{
+    background-color: rgb(50, 135, 232);
+}
+#btn1:hover{
+    background-color: rgb(31, 126, 235);
+}
+#btn1:active{
+    background-color: rgb(154, 197, 246);
+}
+#btn2{
+    background-color: rgb(237, 237, 237);
+    color: gray;
+    border: 0.5px solid gray;
+}
+#btn2:hover{
+    background-color: rgb(221, 221, 221);
+}
+#btn2:active{
+    background-color: rgb(255, 247, 247);
+}
 
 
 
@@ -169,6 +235,12 @@ button:hover{
 @media (max-width: 750px){
     .container{
         width: 90%;
+    }
+    .purple{
+        transform: translateX(-20vw);
+    }
+    .purpleActive{
+        transform: translateX(23vw);
     }
     .container h1{
         font-size: 4vw;
@@ -184,6 +256,12 @@ button:hover{
 @media (max-width: 420px){
     .container{
         width: 100%;
+    }
+    .purple{
+        transform: translateX(-23vw);
+    }
+    .purpleActive{
+        transform: translateX(26vw);
     }
     .container p{
         font-size: 2vw;
