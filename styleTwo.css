@@ -128,7 +128,31 @@ a{
     justify-content: center;
     align-items: center;
 }
-
+input{
+    font-size: 1.5vw;
+}
+button{
+    font-size: 1rem;
+    margin-top: 2.5vw;
+    border-radius: 5px;
+    background-color: rgb(162, 105, 215);
+    color: white;
+    border: none;
+    padding: 0.5vw;
+    cursor: pointer;
+    transition: 150ms;
+}
+button:hover{
+    background-color: rgb(152, 78, 221);
+    transform: scale(102%);
+    transition: 150ms;
+}
+.mailText{
+    margin-top: 3vw;
+}
+.forget{
+    color: gray;
+}
 
 
 
