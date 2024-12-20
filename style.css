@@ -329,4 +329,7 @@ input{
     #sectorTwoP{
         font-size: 2vw;
     }
+    #arrow{
+        bottom: 0.5rem;
+    }
 }
