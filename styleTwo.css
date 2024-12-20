@@ -137,6 +137,12 @@ a{
     .container{
         width: 90%;
     }
+    .signUp h1{
+        margin-left: 6vw;
+    }
+    .signIn h1{
+        margin-left: 3vw;
+    }
 }
 @media (max-width: 420px){
     .container{
