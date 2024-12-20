@@ -130,9 +130,14 @@ a{
 }
 input{
     font-size: 1.5vw;
+    background-color: rgb(206, 206, 206);
+    color: white;
+    border-radius: 6px;
+    border: none;
+    padding: 1.5px;
 }
 button{
-    font-size: 1rem;
+    font-size: 1.4rem;
     margin-top: 2.5vw;
     border-radius: 5px;
     background-color: rgb(162, 105, 215);
@@ -153,6 +158,10 @@ button:hover{
 .forget{
     color: gray;
 }
+.container h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2.5vw;
+}
 
 
 
@@ -161,15 +170,26 @@ button:hover{
     .container{
         width: 90%;
     }
-    .signUp h1{
-        margin-left: 6vw;
+    .container h1{
+        font-size: 4vw;
     }
-    .signIn h1{
-        margin-left: 3vw;
+    .container p{
+        font-size: 2vw;
+    }
+    .container button{
+        font-size: 2.5vw;
+        padding: 0.7vw;
     }
 }
 @media (max-width: 420px){
     .container{
         width: 100%;
+    }
+    .container p{
+        font-size: 2vw;
+    }
+    .container button{
+        font-size: 2.5vw;
+        padding: 0.7vw;
     }
 }
