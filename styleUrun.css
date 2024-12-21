@@ -96,61 +96,77 @@ a{
     text-decoration: none;
     color: white;
 }
-.container{
-    display: flex;
-    flex-direction: row;
+.section1{
+    width: 50%;
 }
-.part1{
-    height: 100%;
-    width: 50vw;
-}
-img{
-    width: 49vw;
-}
-.part2{
-    height: 95%;
-    width: 50vw;
-    position: absolute;
-    top: 3rem;
-    right: 0;
-}
-.section h3{
-    font-size: 2.5rem;
-}
-#price{
-    font-size: 2.5rem;
-}
-.sections{
+.section2{
+    width: 50%;
+    font-family: arimo;
     display: flex;
     flex-direction: column;
-    margin-top: 9vw;
-    
+    align-items: center;
 }
-.section{
-    font-family: roboto;
+.buySection{
+    width: 100%;
     display: flex;
     align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    height: 50vh;
 }
-#buy{
-    font-size: 1.7rem;
-    background-color: black;
-    color: white;
-    font-family: arimo;
-    padding: 2px 100px;
-    margin-top: 9vw;
-    transition: 750ms;
-}
-#buy:hover{
-    box-shadow: 4px 4px 14px black;
-    transition: 750ms;
+img{
+    width: 100%;
 }
 .icons{
     text-align: center;
     margin-top: 2vw;
 }
+.name{
+    font-size: 1.5rem;
+}
+.price{
+    font-size: 1.4rem;
+}
+.texts{
+    margin-bottom: 2vw;
+    transform: translateY(-6rem);
+}
+.buttons{
+    color: white;
+    font-size: 1.5rem;
+}
+.buy:active{
+    background-color: rgb(107, 107, 107);
+}
+.sepet:active{
+    background-color: rgb(143, 143, 143);
+}
+.buy{
+    margin-bottom: 1.5vw;
+    padding: 10px 200px;
+    background-color: rgb(27, 27, 27);
+    transition: 500ms;
+    text-align: center;
+}
+.buy:hover{
+    box-shadow: 4px 7px 9px black;
+    transition: 750ms;
+}
+.sepet{
+    padding: 10px 200px;
+    background-color: rgb(180, 180, 180);
+    transition: 500ms;
+}
+.sepet:hover{
+    box-shadow: 4px 4px 9px black;
+    transition: 750ms;
+}
+#left{
+    cursor: pointer;
+}
+#right{
+    cursor: pointer;
+} 
+#oc{
+    visibility: hidden;
+}
 
 
 
@@ -159,8 +175,42 @@ img{
 
 
 
-
+@media (max-width: 1140px){
+    .section1{
+        margin-bottom: 10vw;
+    }
+    #img{
+        margin-top: 10vw;
+    }
+    .buySection{
+        flex-direction: column;
+    }
+    .texts{
+        margin-top: 10vw;
+        margin-bottom: 0;
+    }
+    .sepet{
+        font-size: 1.5vw;
+        padding: 2vw 0vw;
+        text-align: center;
+    }
+    .buy{
+        font-size: 1.5vw;
+        padding: 2vw 0;
+        text-align: center;
+    }
+    #oc{
+        padding: 2vw 25vw;
+        visibility: hidden;
+    }
+}
 @media (max-width: 500px){
+    #img{
+        margin-top: 15vw;
+    }
+    .texts{
+        margin-top: 20vw;
+    }
     .sectorOne{
         background-image: url("images/31.jpg");
     }
@@ -210,5 +260,17 @@ img{
     }
     #arrow{
         bottom: 0.5rem;
+    }
+    .sepet{
+        font-size: 5vw;
+    }
+    .buy{
+        font-size: 5vw;
+    }
+    .section1{
+        margin-bottom: 20vw;
+    }
+    .section2{
+        transform: translateY(-10%);
     }
 }
