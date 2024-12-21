@@ -17,6 +17,7 @@ html, body{
     justify-content: center;
     padding-bottom: 3rem;
     background-color: rgb(0, 0, 0);
+    position: absolute;
 }
 #logo{
     top: 0.313rem;
@@ -97,4 +98,161 @@ html, body{
 a{
     text-decoration: none;
     color: white;
+}
+img{
+    height: 29.5vw;
+}
+.row1 img{
+    height: 22vw;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: roboto;
+}
+.row1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1vw;
+    gap: 1vw;
+}
+.row2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1vw;
+    margin-bottom: 1vw;
+}
+.row3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1vw;
+}
+.item1 img:hover{
+    content: url(images/v1.jpeg);
+}
+.item2 img:hover{
+    content: url(images/v2.jpeg);
+}
+.item3 img:hover{
+    content: url(images/v3.jpeg);
+}
+.amk1 img:hover{
+    content: url(images/amkvar.jpeg);
+}
+.item4 img:hover{
+    content: url(images/item1.jpg);
+}
+.item5 img:hover{
+    content: url(images/item2.jpg);
+}
+.item6 img:hover{
+    content: url(images/item3.jpg);
+}
+.amk2 img:hover{
+    content: url(images/amk2var.jpg);
+}
+.item7 img:hover{
+    content: url(images/vr1.jpg);
+}
+.item8 img:hover{
+    content: url(images/vr2.jpg);
+}
+.item9 img:hover{
+    content: url(images/vr3.jpg);
+}
+.amk3 img:hover{
+    content: url(images/amk3var.jpg);
+}
+.title{
+    font-size: 10vw;
+    font-family: roboto;
+    text-align: center;
+    margin-top: 4rem;
+    margin-bottom: 4vw;
+}
+.container h3{
+    font-size: 1.5vw;
+}
+.container p{
+    font-size: 1vw;
+}
+
+
+@media (max-width: 500px){
+    .sectorOne{
+        background-image: url("images/31.jpg");
+    }
+    #account{
+        top: 0.513rem;
+        font-size: 0.7rem;
+        left: 0.338rem;
+    }
+    #kolye{
+        top: 0.513rem;
+        font-size: 0.7rem;
+        left: 4.313rem;
+    }
+    #bag{
+        top: 0.513rem;
+        font-size: 1rem;
+    }
+    #bar{
+        top: 0.413rem;
+        font-size: 1rem;
+    }
+    #logo{
+        font-size: 1.5rem;
+    }
+    .title{
+        font-size: 1.5rem;
+        padding-left: 20px;
+    }
+    .subTitle{
+        font-size: 0.7rem;
+    }
+    .button{
+        padding: 6px 63px;
+        font-size: 1rem;
+    }
+    .form{
+        height: 40%;
+    }
+    .links{
+        top: 14rem;
+    }
+    .itemBox{
+        gap: 5vw;
+    }
+    #sectorTwoP{
+        font-size: 2vw;
+    }
+    #arrow{
+        bottom: 0.5rem;
+    }
+    .row1{
+        flex-direction: column;
+    }
+    .row2{
+        flex-direction: column;
+    }
+    .row3{
+        flex-direction: column;
+    }
+    img{
+        height: 63.5vw;
+    }
+    .row1 img{
+        height: 56vw;
+    }
+    .container h3{
+        font-size: 3vw;
+    }
+    .container p{
+        font-size: 2vw;
+    }
 }
