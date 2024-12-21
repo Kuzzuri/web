@@ -192,34 +192,34 @@ hr{
     gap: 7vw;
 }
 #imgFront1{
-    height: 33vw;
+    height: 25vw;
     transition: 170ms;
 }
 #imgFront1:hover{
     transform: translate(-4px, -4px);
     transition: 170ms;
     box-shadow: 4px 4px 9px black;
-    content: url("images/item1.jpg");
+    content: url("images/v1.jpeg");
 }
 #imgFront2{
-    height: 33vw;
+    height: 25vw;
     transition: 170ms;
 }
 #imgFront2:hover{
     transform: translate(-4px, -4px);
     transition: 170ms;
     box-shadow: 4px 4px 9px black;
-    content: url("images/item2.jpg");
+    content: url("images/v2.jpeg");
 }
 #imgFront3{
-    height: 33vw;
+    height: 25vw;
     transition: 170ms;
 }
 #imgFront3:hover{
     transform: translate(-4px, -4px);
     transition: 170ms;
     box-shadow: 4px 4px 9px black;
-    content: url("images/item3.jpg");
+    content: url("images/v3.jpeg");
 }
 .sectorThree{
     display: flex;
@@ -341,5 +341,20 @@ a{
     }
     #arrow{
         bottom: 0.5rem;
+    }
+    .itemBox{
+        flex-direction: column;
+    }
+    #imgFront1{
+        height: 33vw;
+    }
+    #imgFront2{
+        height: 33vw;
+    }
+    #imgFront3{
+        height: 33vw;
+    }
+    .form{
+        height: 90%;
     }
 }
